@@ -1,6 +1,16 @@
-﻿{
+{
     "wallpaper": "https://www.dmoe.cc/random.php",
     "spider": "./lib/xjy.jar;md5;e5f048383b35728c4f1bb21c708c0c7",
+    "lives": [
+    {
+      "name": "直播一",
+      "type": 0,
+      "url": "./lib/ppp.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
      "sites": [
    {
             "key": "知识",
@@ -13,6 +23,17 @@
 "ext":"./lib/知识.json", "jar":""
                    },
         {
+        {
+      "key": "csp_圣城",
+      "name": "圣城影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./暴脾气.jar",
+      "ext": "./lib/圣城影视.json"
+    },
             "key": "儿童",
             "name": "🌏少儿┃教育",
             "type": 3,
